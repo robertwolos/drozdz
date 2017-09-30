@@ -8,13 +8,19 @@ class AppHeader extends Component {
     return (
       <header className="App-header">
         <nav className="main-nav">
-          <ul>
-            <li><Link to="/"><span>Główna</span></Link></li>
-            <li><Link to="/galery"><span>Galeria</span></Link></li>
-            <li><Link to="/contact"><span>Kontakt</span></Link></li>
-            <li style={{ float: "right" }} ><a href="#0"><span>Zarejestruj</span></a></li>
-            <li style={{ float: "right" }} ><a href="#0"><span>Zaloguj</span></a></li>
-          </ul>
+          <div className="main-nav-left">
+            <ul>
+              <li><Link to="/glowna"><span>Główna</span></Link></li>
+              <li><Link to="/galery"><span>Galeria</span></Link></li>
+              <li><Link to="/contact"><span>Kontakt</span></Link></li>
+            </ul>
+          </div>
+          <div className="main-nav-right">
+            <ul>
+              <li style={{ float: "right" }} ><a href="#0"><span>Zarejestruj</span></a></li>
+              <li style={{ float: "right" }} ><a href="#0"><span>Zaloguj</span></a></li>
+            </ul>
+          </div>
         </nav>
       </header>
     );

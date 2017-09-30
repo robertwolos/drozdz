@@ -1,30 +1,39 @@
 .App-header {
   background-color: transparent;
   opacity: 0.9;
-  height: auto;
+  height: 80px;
   padding: 20px;
   color: white;
+}
+.main-nav-left {
+  float: left;
+}
+.main-nav-right {
+  float: right;
 }
 
 .main-nav ul,
 .main-nav li,
 .main-nav a {
   list-style: none;
-  background-color: #222;
   margin: 0;
   padding: 0;
   border: 0;
   line-height: 1;
   font-family: 'Lato', sans-serif;
 }
-.main-nav {
+.main-nav div{
+  /* -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid white; */
 }
 .main-nav ul {
   zoom: 1;
   background: transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
-  padding: 5px 10px;
-
 }
 .main-nav ul:before {
   content: '';
@@ -37,7 +46,7 @@
 }
 .main-nav li {
   float: left;
-  margin: 0 5px 0 0;
+  margin: 0 0 0 0;
   border: 1px solid transparent;
 }
 .main-nav li a {
@@ -54,10 +63,22 @@
   font-size: 16px;
 }
 .main-nav li:hover {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #36b0b6;
+  background-color: rgba(255,255,255, 0.3);
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 1s;
+  border-radius: 2px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: rgba(255,255,255, 0);}
+  to {background-color: rgba(255,255,255, 0.3);}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: rgba(255,255,255, 0);}
+  to {background-color: rgba(255,255,255, 0.3);}
 }

@@ -7,10 +7,10 @@ class Glowna extends Component {
   render() {
     return (
       <div className="glowna-cont">
-        <div className="logo-main">
+        {/* <div className="logo-main">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
-        </div>
+        </div> */}
       </div>
     );
   }
