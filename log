@@ -1,0 +1,12 @@
+
+Cześć Robert,
+1. Dane do logowania via FTP - tu możesz wrzucać pliki:
+serwer: motherandbaby.home.pl
+login: robert@robertdrozdz.pl
+hasło: sJaszczurka12!# [usuń pierwszy znak - to dla bezpieczeństwa]
+
+2. Na serwerze możesz umieszczać kod PHP, Python też powinien zostać zinterpretowany: https://pomoc.home.pl/baza-wiedzy/zasady-umieszczenia-skryptow-na-serwerach-w-home-pl
+
+3. Domena jest już przeze mnie skonfigurowana na ten serwer, do którego masz dostęp.
+
+4. Bazy danych: Jest MySQL i PostgreSQL - napisz czego Ci potrzeba.

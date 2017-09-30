@@ -1,0 +1,15 @@
+.galery-img {
+  max-width: 100%;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0,0,0, 0.75);
+  -moz-box-shadow: 0 0 20px 1px rgba(0,0,0, 0.75);
+  box-shadow: 0 0 20px 1px rgba(0,0,0, 0.75);
+}
+.galery-img:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 20px 1px rgba(7, 252, 7, 0.9);
+  -moz-box-shadow: 0 0 20px 1px rgba(7, 252, 7, 0.90);
+  box-shadow: 0 0 20px 1px rgba(7, 252, 7, 0.90);
+}
+.galery-table>tr>td {
+  padding: 10px;
+}

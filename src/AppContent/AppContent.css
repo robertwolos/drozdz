@@ -1,0 +1,14 @@
+.main-container {
+  color: white;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 800px;
+}
+
+.main-paper {
+  min-height: 500px;
+  width: 1200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  margin: auto;
+}
