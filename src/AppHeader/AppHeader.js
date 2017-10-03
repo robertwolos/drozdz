@@ -10,7 +10,7 @@ class AppHeader extends Component {
         <nav className="main-nav">
           <div className="main-nav-left">
             <ul>
-              <li><Link to="/glowna"><span>Główna</span></Link></li>
+              <li><Link to="/"><span>Główna</span></Link></li>
               <li><Link to="/galery"><span>Galeria</span></Link></li>
               <li><Link to="/contact"><span>Kontakt</span></Link></li>
             </ul>

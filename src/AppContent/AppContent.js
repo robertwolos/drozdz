@@ -12,7 +12,7 @@ class AppContent extends Component {
     return (
       <main className="main-container">
         <Switch>
-          <Route exact path="/glowna" component={Glowna}/>
+          <Route exact path="/" component={Glowna}/>
           <div className="main-paper">
             <Route path="/contact" component={Kontakt}/>
             <Route path="/galery" component={Galeria}/>
